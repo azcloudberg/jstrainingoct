@@ -1,0 +1,2 @@
+# jstrainingoct
+JS Class
