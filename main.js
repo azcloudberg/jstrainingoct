@@ -5,7 +5,7 @@ myName = undefined;
 // hoisting - js interpreter will your entire variable declartions, function to the top of the program before execution
 
 
-console.log("main.js is connected...");
+// console.log("main.js is connected...");
 
 
 // Variables
@@ -30,7 +30,7 @@ let age = null;
 
 const new1 = null;
 
-console.log(age); //10
+// console.log(age); //10
 var yourName = "Sonu";
 // var myName = "Suchitra";
 // console.log(myName); //Suchitra
@@ -41,7 +41,7 @@ var yourName = "Sonu";
 var yourName = 89199393;
 
 yourName = "Suman"; // You can re-assign values to a variable declared using var keyword.
-console.log(yourName);
+// console.log(yourName);
 
 // let keyword
 
@@ -50,7 +50,7 @@ console.log(yourName);
 let phoneNumber = 73829291938; //variable declaration and assignment
 phoneNumber = 8399202093; // re assigning values
 
-console.log(phoneNumber);
+// console.log(phoneNumber);
 
 let email; // variable declaration
 email = "krish@intellipaat.com"; //value assignment
@@ -165,21 +165,81 @@ let today = new Date();
 
 
 
-let num = 87654;
-// num = 74.472;
-console.log(typeof num) //number
-let str = String(num);
-// let str = num;
-console.log(typeof str) //number
+// let num = 87654;
+// // num = 74.472;
+// console.log(typeof num) //number
+// let str = String(num);
+// // let str = num;
+// console.log(typeof str) //number
 
-let text = "Hi everyone" + 20;
-console.log(text)
-
-
+// let text = "Hi everyone" + 20;
+// console.log(text)
 
 
+// Operators, Control Flow Statements - If else, switch
+// Loops
+// Arrays & Objects in detail
+// Start DOM Manipulation
+
+let a = 10;
+let b = 20;
+let sum = a + b; //addition operation - Expression, a and b are known as operands and '+' here is an operator.
+let sub = a - b;
 
 
+// operand1  operator  operand2
+//   a + b
+//  a * b
+
+// Javascript has three types of oprators Unary, Binary and ternary (conditional Operator).
+
+// A binary operator requires two operands - 1 before the operator and one after the operator.
+// e.g. a * b
+// operand1  operator  operand2
+
+// Unary Operator
+
+// It requires only single oprand, either before the operator or after it.
+// for(let i=0;i<n;i++)
+// for e.g.  operator operand // operand operator - i++ or ++i
+
+// operator operand  -  prefix unary operator
+// operand operator - postfix unary operator
+
+
+// a + b; - binary - two operands
+// a - single operand
+
+// a= 10
+// a = a+1 //11
+// console.log(a); //11
+// a++; -> a = a + 1;
+// a++; -> a = a+1; - Unary operator
+// a+=2 //increase the value by 2.
+
+
+
+// Assignment operator
+
+// It is used to assign values to a variable. (=)
+
+// a = 40;
+// let x = (a * 20)
+// console.log(x);
+
+// Comparison Operators
+// These operators are used to compare the operands and return a logical value based whether the comparison is true or false.
+// Operands can be anything, you can compare two characters, strings, numbers, or object values.
+
+let num2 = "30"; //string
+// console.log(typeof num2)
+let nums = 30; //number
+// mystring == nums;
+// console.log(num2 == nums); //true or false //it will only compare the values.
+// console.log(num2 === nums); //true or false //it will compare both the values as well as the data type.
+// console.log(num2 !== nums); //true or false //it will compare both the values as well as the data type.
+// console.log(num2 > nums); //false
+// console.log(num2 >= nums); //true
 
 
 
