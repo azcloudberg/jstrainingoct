@@ -204,6 +204,7 @@ let fruits = ['mango', 'apple', 'banana', 'pineapple', 'orange'];
 //     code block to be executed
 // }
 
+// array of object
 
 let users = [
     {
@@ -224,13 +225,18 @@ let users = [
 //     // console.log(users["name"]);
 // }
 
+for (let ele of users)
+{
+    // console.log(ele);
+}
+
 for(let user of users)
 {
     for (let key in user)
     {
         // console.log(user[key]);
         if(key=="name"){
-            console.log(user[key]);
+            // console.log(user[key]);
         }
 
     }
