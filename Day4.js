@@ -27,9 +27,9 @@ const heading = document.getElementById('head');
 
 // Update the element
 
-// heading.innerText = 'This is the new heading';
+heading.innerText = 'This is the new heading';
 // heading.innerHTML = '<p>This is a paragraph</p>';
-heading.textContent = 'This is a demo text';
+// heading.textContent = 'This is a demo text';
 
 // const newe = heading.getAttribute('id');
 // heading.setAttribute('class', 'newid');/

@@ -77,7 +77,6 @@ let anotherPlayers = player.slice(1,5);
 let arrNums = [23,56,67,12,69,90,54,62,81,41,34,87,84,34,8];
 // let evenNums = [];
 // let oddNums = [];
-
 // arrNums.forEach(function(item, index){
 //     if(item % 2 === 0)
 //     {
